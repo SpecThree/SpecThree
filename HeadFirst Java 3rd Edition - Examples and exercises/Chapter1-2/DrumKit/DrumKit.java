@@ -5,11 +5,11 @@ class DrumKit
 	
 	void playSnare()
 	{
-		System.out.println("бах бах ба-бах");
+		System.out.println("bang bang ba-bang");
 	}
 	
 	void playTopHat()
 	{
-		System.out.println("динь динь ди-динь");
+		System.out.println("ding ding da-ding");
 	}
 }

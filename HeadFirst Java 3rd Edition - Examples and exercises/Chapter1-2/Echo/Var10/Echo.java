@@ -4,6 +4,6 @@ class Echo
 	
 	void hello()
 	{
-		System.out.println("привееееет...");
+		System.out.println("Hellooo...");
 	}
 }
