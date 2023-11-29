@@ -49,7 +49,10 @@ public class BeatBox
 		downTempo.addActionListener(e -> changeTempo(0.97f));
 		buttonBox.add(downTempo);
 		
-		Box nameBox = new Box(BoxLayout.Y_AXIS);
+		GridLayout bLayout = new GridLayout(16, 1);
+		bLayout.setVgap(1);
+		JPanel nameBox = new JPanel(bLayout);
+		// Box nameBox = new Box(BoxLayout.Y_AXIS);
 		for(String instrumentName : instrumentNames)
 		{
 			JLabel instrumentLabel = new JLabel(instrumentName);
